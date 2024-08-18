@@ -1,0 +1,24 @@
+ body{ font-family: "Playwrite IS", cursive;
+font-weight: bolder;}
+ .imgText{
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+}
+.item img{
+    height: 300px;
+}
+#lightBoxContainer{
+    background-color:rgba(0, 0, 0, 0.7)
+}
+i{cursor: pointer;}
+#lightBox{
+    background-image: url("../imgs/gfbyhuwd.png");
+    background-size:cover ;
+    background-position: center;
+    width: 70%;
+    height: 500px;
+}
+@media screen and (max-width:667px) {
+    #lightBox{width: 100%;}
+}
